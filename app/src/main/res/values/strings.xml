@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Travel_Guest_Application</string>
+    <string name="title_activity_locationpage">Locationpage</string>
+    <string name="title_activity_location_page">Location_page</string>
+</resources>

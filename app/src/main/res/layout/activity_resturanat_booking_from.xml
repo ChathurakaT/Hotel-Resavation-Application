@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hash"
+    android:scrollbars="none"
+    tools:context=".Detail_room_semi_single">
+    <LinearLayout
+        android:layout_width="600dp"
+        android:layout_height="230dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="249dp"
+            android:background="@drawable/logo"
+            android:fontFamily="serif"
+            android:paddingVertical="8dp"
+            android:textAlignment="center"
+            android:textColor="#FF1100"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="-2dp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_marginTop="250dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="325dp"
+                android:layout_height="49dp"
+                android:text="Travel Guset Booking Room"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.037" />
+
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="95dp"
+                android:layout_height="32dp"
+                android:drawableLeft="@drawable/baseline_bungalow_24"
+                android:text="NAME"
+                android:textColor="#FF0404"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.127"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.499" />
+
+            <EditText
+                android:id="@+id/first_name"
+                android:layout_width="336dp"
+                android:layout_height="49dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="First Name"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.666"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.573" />
+
+            <EditText
+                android:id="@+id/last_name"
+                android:layout_width="336dp"
+                android:layout_height="49dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Last Name"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.666"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.658" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:drawableLeft="@drawable/baseline_bungalow_24"
+                android:text="Email"
+                android:textColor="#EF0000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.139"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.733" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="324dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:hint="Enter Your Email"
+                android:inputType="textEmailAddress"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.507"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.81" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="184dp"
+                android:layout_height="40dp"
+                android:drawableLeft="@drawable/baseline_bungalow_24"
+                android:text="Contact Number"
+                android:textColor="#FF0404"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.167"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.877" />
+
+            <EditText
+                android:id="@+id/phone_number"
+                android:layout_width="327dp"
+                android:layout_height="51dp"
+                android:ems="10"
+                android:hint="Enter Your Contact Number"
+                android:inputType="phone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.515"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.955" />
+
+            <TextView
+                android:id="@+id/roomtype"
+                android:layout_width="200dp"
+                android:layout_height="32dp"
+                android:drawableLeft="@drawable/baseline_bungalow_24"
+                android:text="Restuarant Type"
+                android:textColor="#FF0404"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.127"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.499" />
+
+            <EditText
+                android:id="@+id/room_type"
+                android:layout_width="336dp"
+                android:layout_height="49dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter Restuarant Type"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.666"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.573" />
+
+            <TextView
+                android:id="@+id/numberof_Guest"
+                android:layout_width="184dp"
+                android:layout_height="40dp"
+                android:drawableLeft="@drawable/baseline_bungalow_24"
+                android:text="Number Of Guest"
+                android:textColor="#FF0404"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.167"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.877" />
+
+            <EditText
+                android:id="@+id/number_of_guest"
+                android:layout_width="327dp"
+                android:layout_height="51dp"
+                android:ems="10"
+                android:hint="Enter Number of Guest"
+                android:inputType="phone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.515"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.955" />
+
+            <TextView
+                android:id="@+id/Arrival_Date_and_time"
+                android:layout_width="290dp"
+                android:layout_height="32dp"
+                android:drawableLeft="@drawable/baseline_bungalow_24"
+                android:text="Arrival Date And Time"
+                android:textColor="#FF0404"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.127"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.499" />
+
+            <EditText
+                android:id="@+id/Arrival_Date"
+                android:layout_width="336dp"
+                android:layout_height="49dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter Arrival Date"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.666"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.573" />
+
+            <EditText
+                android:id="@+id/Arrival_Time"
+                android:layout_width="336dp"
+                android:layout_height="49dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter Arrival Time"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.666"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.573" />
+
+
+            <TextView
+                android:id="@+id/avilable"
+                android:layout_width="325dp"
+                android:layout_height="35dp"
+                android:drawableLeft="@drawable/baseline_check_box_24"
+                android:text="Available"
+                android:textAlignment="inherit"
+                android:textColor="#0149FF"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.037" />
+
+            <TextView
+                android:id="@+id/Not_availabe"
+                android:layout_width="325dp"
+                android:layout_height="49dp"
+                android:text="Not Available"
+                android:textAlignment="inherit"
+                android:textColor="#0311FA"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.037" />
+
+
+
+            <Button
+                android:id="@+id/book_btn02"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:backgroundTint="#000000"
+                android:layout_marginLeft="120dp"
+                android:text="Book Now"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.5"
+                app:layout_constraintHorizontal_bias="0.5" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

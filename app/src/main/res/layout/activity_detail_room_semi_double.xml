@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:scrollbars="none"
+    tools:context=".Detail_room_semi_single">
+    <LinearLayout
+        android:layout_width="600dp"
+        android:layout_height="230dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="224dp"
+            android:background="@drawable/double023"
+            android:paddingVertical="8dp"
+            android:fontFamily="serif"
+            android:textAlignment="center"
+            android:textColor="#FF1100"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="-2dp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_marginTop="250dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:text="Semi Double Room"
+                android:textAlignment="center"
+                android:textColor="#FF1100"
+                android:textSize="34sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.043" />
+
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="376dp"
+                android:layout_height="48dp"
+                android:paddingTop="10dp"
+                android:text="ROOM AMENITIES"
+                android:textAlignment="inherit"
+                android:textColor="#F4DC00"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.118"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.565" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:drawableLeft="@drawable/baseline_bungalow_24"
+                android:text=" Double Size Bed"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.111"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.635" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:drawableLeft="@drawable/baseline_bungalow_24"
+                android:text="Bathroom "
+                android:textAlignment="viewStart"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.396"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.694" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:drawableLeft="@drawable/baseline_bungalow_24"
+                android:text="Mini Fridge"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.086"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.752" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:drawableLeft="@drawable/baseline_bungalow_24"
+                android:text="In-room Electric Safe"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.145"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.809" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:drawableLeft="@drawable/baseline_bungalow_24"
+                android:text="LED TV with cable channels"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.258"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.868" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:drawableLeft="@drawable/baseline_bungalow_24"
+                android:text="Free WiFi Service"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.115"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.935" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="376dp"
+                android:layout_height="48dp"
+                android:paddingTop="10dp"
+                android:text="ROOM Services"
+                android:textAlignment="inherit"
+                android:textColor="#F4DC00"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.118"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.565" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:drawableLeft="@drawable/baseline_bungalow_24"
+                android:text="Free Internet Access (Wi-Fi)"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.111"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.635" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:drawableLeft="@drawable/baseline_bungalow_24"
+                android:text="Computer corner"
+                android:textAlignment="viewStart"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.396"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.694" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:drawableLeft="@drawable/baseline_bungalow_24"
+                android:text="Laundry Service"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.086"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.752" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:drawableLeft="@drawable/baseline_bungalow_24"
+                android:text="Massage"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.145"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.809" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:drawableLeft="@drawable/baseline_bungalow_24"
+                android:text="Courier service acceptance"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.258"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.868" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:drawableLeft="@drawable/baseline_bungalow_24"
+                android:text="Parking"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.115"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.935" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="450dp"
+                android:layout_height="48dp"
+                android:paddingTop="10dp"
+                android:drawableLeft="@drawable/baseline_check_box_24"
+                android:text="Occupancy	2 to 6 persons"
+                android:textAlignment="inherit"
+                android:textColor="#49E84F"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.118"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.565" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="450dp"
+                android:layout_height="48dp"
+                android:paddingTop="10dp"
+                android:drawableLeft="@drawable/baseline_check_box_24"
+                android:text="One Night, 2 Adults, LKR 44,055/"
+                android:textAlignment="inherit"
+                android:textColor="#49E84F"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.118"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.565" />
+
+            <Button
+                android:id="@+id/book_btn"
+                android:layout_width="235dp"
+                android:layout_height="55dp"
+                android:backgroundTint="#000000"
+                android:layout_marginLeft="80dp"
+                android:text="Book Now"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.5"
+                app:layout_constraintHorizontal_bias="0.5" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
